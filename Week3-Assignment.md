@@ -32,7 +32,7 @@ Build a responsive React application using JSX and Tailwind CSS that demonstrate
   - `useContext` for theme management (light/dark mode)
   - Create a custom hook (e.g., `useLocalStorage`) for persisting tasks
 
-### Task 4: API Integration
+### Task 4: API Integration 
 - Fetch data from a public API (e.g., JSONPlaceholder)
 - Display the fetched data in a list or grid layout
 - Implement loading and error states
