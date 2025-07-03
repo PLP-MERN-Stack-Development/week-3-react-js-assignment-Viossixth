@@ -1,0 +1,7 @@
+/*Styles for cards*/
+
+.card{
+    display: flexbox;
+    padding: rem;
+    margin : 10px
+}

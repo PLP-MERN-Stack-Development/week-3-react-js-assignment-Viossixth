@@ -1,0 +1,12 @@
+/*Styling for Navbar*/
+
+.nav{
+    justify-content: center;
+    color-scheme: blue;
+}
+
+.nav-h1{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}

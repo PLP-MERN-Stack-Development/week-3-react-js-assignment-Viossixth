@@ -2,10 +2,20 @@ import { useState } from 'react';
 import './App.css';
 
 // Import your components here
-// import Button from './components/Button';
-// import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
-// import TaskManager from './components/TaskManager';
+ import Button from './components/Button.jsx';
+ import Navbar from './components/Navbar.jsx';
+ import Footer from './components/Footer.jsx';
+ import Footer from './components/Card.jsx';
+ import Posts from './pages/Posts'
+ import TaskManager from './components/TaskManager.jsx';
+ import { ThemeProvider } from './context/ThemeContext'
+
+<ThemeProvider>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+</ThemeProvider>
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -68,5 +78,9 @@ function App() {
     </div>
   );
 }
+
+
+
+<Route path="/posts" element={<Posts />} />
 
 export default App; 
